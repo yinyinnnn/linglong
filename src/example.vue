@@ -70,7 +70,7 @@
 		
 		<!-- 添加商品对话框 -->
 		<el-dialog
-		  title="添加商品"
+		  title="添加商品33333"
 		  :visible="isShowAddBook"
 		  width="50%"
 			@close="isShowAddBook = false"
@@ -81,16 +81,16 @@
 					<!-- 添加表单 -->
 					  <el-form status-icon size="small" :model="formBookAdd" :rules="formRules" ref="ruleFormRef" label-width="80px">
 						
-						<el-form-item label="商品名" prop="productname">
+						<el-form-item label="商品名11111" prop="productname">
 							<el-input v-model="formBookAdd.productname"></el-input>
 						</el-form-item>		
 						
-						<el-form-item label="价格" prop="price">
+						<el-form-item label="价格44444" prop="price">
 							<el-input v-model="formBookAdd.price"></el-input>
 						</el-form-item>						
 						
 						
-						<el-form-item label="作者" prop="writer">
+						<el-form-item label="作者555555" prop="writer">
 							<el-input  v-model="formBookAdd.writer"></el-input>
 						</el-form-item>	
 					</el-form>
